@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pickle
 import pandas as pd
 import numpy as np
@@ -57,8 +56,6 @@ prediction = model.predict(data)
 # Output the result
 print("Autism Prediction:", "At Risk" if prediction[0] == 1 else "Not at Risk")
 
-
-=======
 import pickle
 import pandas as pd
 import numpy as np
@@ -109,4 +106,3 @@ prediction = model.predict(new_data)
 
 # Output the result
 print("Autism Prediction:", "At Risk" if prediction[0] == 1 else "Not at Risk")
->>>>>>> 0081ed9b26276f6476a50f530b336e05d4920951
